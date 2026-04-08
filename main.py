@@ -1,0 +1,1 @@
+from kivy.app import App\nfrom kivy.uix.settings import Settings\nfrom kivy.uix.boxlayout import BoxLayout\n\nclass MainApp(App):\n    def build(self):\n        return MainLayout()\n\nclass MainLayout(BoxLayout):\n    pass\n\nif __name__ == '__main__':\n    MainApp().run()
